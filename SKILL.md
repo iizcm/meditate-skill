@@ -1,43 +1,80 @@
 ---
 name: meditate
-description: "AI agent skill: meditate"
 version: 0.1.0
 author: Hermes Agent
 license: MIT
-platforms: [linux, macos, windows]
-tags: [general]
 ---
 
-# Meditate — Skill
+# meditate — Mindfulness & Focus Assistant
 
-AI agent skill: meditate
+**Status:** Placeholder - In Development
 
-## Install
+A skill to help users maintain focus, practice mindfulness, and manage stress levels.
 
-```bash
-cp -r <skill-name> ~/.hermes/skills/<skill-path>/
-```
+## Overview
 
-Or clone this repository:
-
-```bash
-git clone https://github.com/iizcm/meditate-skill.git ~/.hermes/skills/<skill-path>/
-```
+**meditate** provides tools for mindfulness practices, focus exercises, and stress management to enhance productivity and well-being.
 
 ## Usage
 
-Invoke your AI agent with a clear instruction matching this skill's purpose. The agent will route tasks to this skill when the instruction matches its description or trigger keywords.
+### Daily meditation timer
+```bash
+meditate timer <duration>
+```
 
-Refer to `README.md` in this repository for:
-- Detailed step-by-step installation guide
-- Bilingual documentation (English + Indonesian)
-- Troubleshooting table
-- Security best practices
-- Customization tips
+### Focus session starter
+```bash
+meditate focus
+```
 
-## Safety rules
+### Stress level check
+```bash
+meditate stress
+```
 
-- Never commit private keys, seed phrases, API tokens, or personal data to version control
-- Use placeholders (`<YOUR_...>`) in all examples and code snippets
-- Validate all outputs before acting on them
-- Keep real credentials in your runtime's secure credential store only
+## Features
+
+- **Breathing exercises** to reduce stress
+- **Focus timers** for deep work sessions
+- **Mindfulness prompts** for daily practice
+- **Progress tracking** for meditation consistency
+- **Relaxation techniques** for quick stress relief
+
+## Commands
+
+### timer <minutes>
+Start a meditation session with a timer.
+
+### focus
+Begin a focused work session.
+
+### stress
+Check and manage stress levels.
+
+### reminders
+Set up meditation reminders.
+
+### history
+View meditation session history.
+
+## Benefits
+
+- Improved concentration
+- Reduced stress and anxiety
+- Better emotional regulation
+- Enhanced productivity
+- Better sleep quality
+
+## Integration
+
+Can be integrated with:
+- Work scheduling systems
+- Productivity tools
+- Wellness tracking apps
+
+## Future Enhancements
+
+- Real-time stress monitoring
+- Personalized meditation recommendations
+- Integration with wearable devices
+- Group meditation sessions
